@@ -17,7 +17,7 @@ services:
     privileged: true
     user: root
     ports:
-      - "8181:8181"
+      - "8181:8080"
       - "50000:50000"
     volumes:
       - jenkins_home:/var/jenkins_home
